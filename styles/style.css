@@ -239,7 +239,7 @@
 .kaufman {
   position: relative;
   padding: 90px 0;
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
@@ -250,6 +250,8 @@
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
+  z-index: 1;
   color: white;
 }
 
@@ -280,20 +282,12 @@
 
 /* footer */
 
-.unordered-list_style_none {
-  margin: 0;
-  padding: 0;
-}
-
-.list_style_none {
-  list-style-type: none;
-}
-
 .footer {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   min-height: 350px;
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   padding: 60px 0 40px;
 }
 
@@ -326,16 +320,9 @@
   font-weight: normal;
 }
 
-
 .footer__column_content_info {
   align-items: start;
 }
-
-/* .footer__colums_info {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-} */
 
 .footer__column-heading {
   margin: 0;
@@ -352,6 +339,7 @@
   margin: 0;
   margin-bottom: 16px;
   padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
